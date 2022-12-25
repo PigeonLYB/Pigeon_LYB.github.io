@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>云崽bot搭建教程（安卓，基于Termux；Arch Liunx）</title>
+      <link href="/2022/12/25/2022-12-24-%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/"/>
+      <url>/2022/12/25/2022-12-24-%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/</url>
+      
+        <content type="html"><![CDATA[<p>copyright_info： 本项目产考了时雨◎星空 &#x2F; TRSS Yunzai的项目，链接如下：<br><a href="https://gitee.com/TimeRainStarSky/TRSS_Yunzai#/TimeRainStarSky/TRSS_Yunzai/blob/main/Guide/TMOE.md">https://gitee.com/TimeRainStarSky/TRSS_Yunzai#/TimeRainStarSky/TRSS_Yunzai/blob/main/Guide/TMOE.md</a></p><h2 id="1-环境的准备"><a href="#1-环境的准备" class="headerlink" title="1.环境的准备"></a>1.环境的准备</h2><p>首先我们需要下载Zero Termux（可以去GitHub上面找）与质感文件（在Zero Termux的扩展插件里有）<br>打开Zero Termux，阅读协议，同意权限<br>输入以下指令部署Arch linux<br>curl -LO l.tmoe.me&#x2F;2.awk &amp;&amp; awk -f 2.awk<br>选择Manager<br>阅读说明，按y，回车<br>同意使用gitee获取文件，按y，回车<br>之后出现 (Y&#x2F;I&#x2F;N&#x2F;O&#x2F;D&#x2F;Z) [default&#x3D;N] ? 之类的选项时：直接按回车即可<br>进入TMOE后，选择PRoot容器</p><p>首次进入，按提示选择配置：<br>DNS 推荐选择：<a href="CFIEC">240c::6666</a><br>一言：按需选择<br>时区(Timezone)：Asia&#x2F;Shanghai 回车<br>共享目录：用于在容器中访问宿主文件，按需选择<br>chroot 模式(CHROOT MODE)：用不到 systemctl，选择 normal</p><p>进入容器菜单之后，选择 发行版列表，选择 Arch<br>选择 启动 (如果要多开容器，请选择新建容器)</p><p>等待容器安装完成 (如果在安装中出现问题，可以尝试移除容器后重装)</p><p>首次启动，按提示选择配置：<br>新建 sudo 用户：一般使用 root 用户即可，选择 否<br>为 root 用户配置 zsh：终端美化，按需选择，推荐 是<br>delete ~&#x2F;zsh.sh：选择 是<br>启动tmoe tools?：选择 否 (需要使用输入 tmoe 启动即可)</p><p>至此环境配置完成</p><h2 id="2-安装脚本"><a href="#2-安装脚本" class="headerlink" title="2.安装脚本"></a>2.安装脚本</h2><p>键入：<br>bash &lt;(curl -L gitee.com&#x2F;TimeRainStarSky&#x2F;TRSS_Yunzai&#x2F;raw&#x2F;main&#x2F;Install.sh)<br>等待安装</p><h2 id="3-启动脚本"><a href="#3-启动脚本" class="headerlink" title="3.启动脚本"></a>3.启动脚本</h2><p>键入：<br>tsyz<br>完成</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>文章撰写测试</title>
       <link href="/2022/12/10/2022-12-10-Test/"/>
       <url>/2022/12/10/2022-12-10-Test/</url>
@@ -42,9 +55,9 @@
     
     
     <entry>
-      <title>友情链接</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -53,9 +66,9 @@
     
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>友情链接</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
